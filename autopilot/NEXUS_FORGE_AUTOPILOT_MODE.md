@@ -68,6 +68,7 @@ For every incoming request, extract and document the following. If not explicitl
 Generate the complete product definition package:
 
 ### Product Definition
+
 - Product Name
 - Product Category
 - Core Value Proposition
@@ -77,6 +78,7 @@ Generate the complete product definition package:
 - Market Position Statement
 
 ### Deliverables
+
 - **PRD** — Product Requirements Document (full spec)
 - **Technical Specification** — stack, integrations, constraints
 - **Architecture Blueprint** — system diagram (Mermaid)
@@ -92,7 +94,6 @@ Generate the complete product definition package:
 Automatically classify and design for the appropriate intelligence type:
 
 | Type | Examples |
-|---|---|
 | LLM App | Chat, coding assistant, RAG app |
 | Agent Platform | Multi-agent orchestration, AutoGPT-style |
 | AI Operating System | Nexova OS, full cognitive runtime |
@@ -113,6 +114,7 @@ Generate the **full architecture rationale** explaining why the chosen type fits
 Determine the **optimal model strategy** based on constraints, latency, cost, and capability:
 
 ### Local Models
+
 | Model | Best For |
 |---|---|
 | Qwen 2.5 / 3 | Coding, reasoning, multilingual |
@@ -122,6 +124,7 @@ Determine the **optimal model strategy** based on constraints, latency, cost, an
 | Gemma 3 | Lightweight, edge, on-device |
 
 ### Hosted Models
+
 | Model | Best For |
 |---|---|
 | GPT-4o / o3 | General reasoning, multimodal |
@@ -130,6 +133,7 @@ Determine the **optimal model strategy** based on constraints, latency, cost, an
 | Grok 3 | Real-time data, X platform |
 
 ### Hybrid Strategies
+
 - **Multi-Model Routing (MoR)** — Route by task type, cost, latency
 - **Mixture of Agents (MoA)** — Parallel agents vote on best response
 - **Mixture of Experts (MoE)** — Sparse expert activation per token
@@ -142,7 +146,9 @@ Output: complete model selection matrix with rationale.
 ## PHASE 5 — AGENT ECOSYSTEM CREATOR
 
 ### Queen Agent (Orchestrator)
+
 Responsible for:
+
 - Strategic planning and goal decomposition
 - Agent orchestration and task delegation
 - Goal tracking and success verification
@@ -163,6 +169,7 @@ Responsible for:
 | **Analytics Agent** | Usage telemetry, funnel analysis, performance metrics |
 
 ### Communication Protocols
+
 - **A2A (Agent-to-Agent)**: Structured JSON message passing
 - **MCP (Model Context Protocol)**: Tool and context sharing
 - **Event Streams**: Async pub/sub for long-running workflows
@@ -220,6 +227,7 @@ flowchart TD
 | Agent Memory | Per agent instance | Configurable |
 
 ### Memory Operations
+
 - **Compression**: Summarize old episodes into semantic embeddings
 - **Retrieval**: MMR (Maximal Marginal Relevance) + BM25 hybrid
 - **Ranking**: Recency × relevance × importance scoring
@@ -242,6 +250,7 @@ flowchart LR
 ```
 
 ### Supported Patterns
+
 - **RAG** — Standard retrieval-augmented generation
 - **GraphRAG** — Graph-traversal enhanced context
 - **Hybrid Retrieval** — BM25 + dense vector fusion
@@ -383,6 +392,7 @@ Implement advanced reasoning strategies:
 | **API** | Usage | Per-token pricing | Full API access, webhooks |
 
 ### Revenue Infrastructure
+
 - **Stripe**: Subscriptions, usage billing, invoicing
 - **Credit System**: Prepaid credits for API consumers
 - **Usage Metering**: Token-level tracking per user/org
@@ -542,6 +552,7 @@ Idea
 ```
 
 ### Mandatory Output Standards
+
 - Every architecture includes a Mermaid diagram
 - Every API includes an OpenAPI spec
 - Every agent system includes a communication protocol definition

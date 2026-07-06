@@ -1,7 +1,22 @@
 {
     "cSpell.words": [
         "Agentic",
+        "chunker",
+        "FSDP",
+        "MCTS",
+        "Midtraining",
+        "Mixtral",
         "Multimodal",
-        "Synova"
+        "pretraining",
+        "Pretraining",
+        "pytest",
+        "Qwen",
+        "Replit",
+        "Reranker",
+        "RLAIF",
+        "RTSP",
+        "Synova",
+        "Tauri",
+        "Turborepo"
     ]
 }
