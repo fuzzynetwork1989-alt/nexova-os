@@ -1,0 +1,143 @@
+{
+  "generated": "2026-08-20T09:43:48.623530+00:00",
+  "results": [
+    {
+      "category": "Legal & Compliance",
+      "check": "Privacy Policy document present",
+      "critical": true,
+      "status": true
+    },
+    {
+      "category": "Legal & Compliance",
+      "check": "Terms of Service document present",
+      "critical": true,
+      "status": true
+    },
+    {
+      "category": "Legal & Compliance",
+      "check": "LICENSE file present",
+      "critical": false,
+      "status": false
+    },
+    {
+      "category": "Legal & Compliance",
+      "check": "Data safety / privacy nutrition draft present",
+      "critical": true,
+      "status": true
+    },
+    {
+      "category": "Legal & Compliance",
+      "check": "Content / age rating draft present",
+      "critical": false,
+      "status": true
+    },
+    {
+      "category": "Store Metadata",
+      "check": "Apple App Store listing draft (name, subtitle, description, keywords)",
+      "critical": true,
+      "status": true
+    },
+    {
+      "category": "Store Metadata",
+      "check": "Google Play listing draft (short/full description, category)",
+      "critical": true,
+      "status": true
+    },
+    {
+      "category": "Store Metadata",
+      "check": "App icon asset present",
+      "critical": true,
+      "status": false
+    },
+    {
+      "category": "Store Metadata",
+      "check": "Screenshots folder / capture plan present",
+      "critical": false,
+      "status": true
+    },
+    {
+      "category": "Store Metadata",
+      "check": "CHANGELOG for release notes",
+      "critical": false,
+      "status": true
+    },
+    {
+      "category": "Mobile Build Config",
+      "check": "app.json has iOS bundleIdentifier + Android package",
+      "critical": true,
+      "status": null
+    },
+    {
+      "category": "Mobile Build Config",
+      "check": "app.json declares version + versionCode/buildNumber",
+      "critical": true,
+      "status": null
+    },
+    {
+      "category": "Mobile Build Config",
+      "check": "EAS build config (eas.json) present for Expo app",
+      "critical": true,
+      "status": null
+    },
+    {
+      "category": "Mobile Build Config",
+      "check": "iOS privacy usage-description strings present where permissions are used",
+      "critical": false,
+      "status": null
+    },
+    {
+      "category": "Web Production Readiness",
+      "check": "robots.txt present",
+      "critical": false,
+      "status": null
+    },
+    {
+      "category": "Web Production Readiness",
+      "check": "sitemap present or generated",
+      "critical": false,
+      "status": null
+    },
+    {
+      "category": "Web Production Readiness",
+      "check": "Security headers / CSP configured",
+      "critical": true,
+      "status": null
+    },
+    {
+      "category": "Web Production Readiness",
+      "check": "Environment variable example file (.env.example) present, no real secrets committed",
+      "critical": true,
+      "status": true
+    },
+    {
+      "category": "CI/CD & Security",
+      "check": "CI workflow present (.github/workflows)",
+      "critical": true,
+      "status": true
+    },
+    {
+      "category": "CI/CD & Security",
+      "check": "Store-readiness autopilot workflow installed",
+      "critical": false,
+      "status": true
+    },
+    {
+      "category": "CI/CD & Security",
+      "check": "SECURITY.md vulnerability-disclosure policy present",
+      "critical": false,
+      "status": true
+    },
+    {
+      "category": "CI/CD & Security",
+      "check": "Dependency audit step configured in CI",
+      "critical": false,
+      "status": true
+    },
+    {
+      "category": "CI/CD & Security",
+      "check": "Crash / error monitoring reference present (Sentry or equivalent)",
+      "critical": false,
+      "status": false
+    }
+  ]
+}
